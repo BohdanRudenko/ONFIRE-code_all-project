@@ -1,0 +1,81 @@
+.projects 
+	background-color: #F7F6F8
+	padding: 113px 0 200px
+	position: relative
+.project  
+	display: flex
+	justify-content: space-between
+	&__item 
+		position: relative
+		border-radius: 10px
+		max-width: 345px
+		width: 32%
+		&:hover .project__overlay 
+			opacity: 1
+		
+	
+	&__picture 
+		display: block
+		border-radius: 10px	
+	&__overlay 
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 100%
+		height: 100%
+		background-color: rgba(0,0,0,.4)
+		left: 0
+		top: 0
+		position: absolute
+		border-radius: 10px
+		opacity: 0
+		transition: opacity 0.5s ease
+		&:hover
+			transition: opacity 0.5s ease
+
+.skills 
+	display: flex
+	border-top: 1px solid #B8B8B8
+	margin-top: 101px
+	padding: 46px 0 0
+	justify-content: space-between
+	&__item 
+		width: 110px
+		text-align: center
+		&:last-child 
+			margin: 0
+		
+	
+	&__digit 
+		font-size: 36px
+		font-weight: 700
+		margin-bottom: 10px
+		display: block
+	&__text 
+	
+
+.rules 
+	max-width: 801px
+	width: 100%
+	margin: 0 auto
+	background-color: #F4EAFF
+	border-radius: 15px
+	text-align: center
+	padding: 52px 22px
+	position: absolute
+	left: 50%
+	bottom: 0
+	z-index: 1
+	transform: translate(-50%, 50%)
+	&__title 
+		font-size: 19px
+	
+	&__text 
+		margin: 22px auto 0
+		line-height: 1.4em
+		max-width: 655px
+	
+	&__btn 
+		margin: 27px auto 0
+	
+

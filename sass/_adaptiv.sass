@@ -1,0 +1,74 @@
+/* Large: 992px - 1199px */
+@media screen and (max-width: 1200px)
+	.container
+		max-width: 960px
+	.project
+		flex-wrap: wrap
+	.project__picture
+		width: 100%
+
+/* Medium: 768px - 991px */
+@media (max-width: 992px)
+	.menu
+		&__tel
+			display: none
+	.container
+        max-width: 720px
+	.footer-content 
+		flex-wrap: wrap
+	.service__item
+		width: 100%
+	.service__item:nth-of-type(3)
+		margin-bottom: 51px
+	.project__item
+		width: auto
+		margin-bottom: 28px
+	.footer-content
+		justify-content: flex-start
+	.communication
+		width: 50%
+		margin-bottom: 74px
+	.following
+		width: 50%
+		margin-bottom: 83px
+
+/* Small: 576px - 768px */
+@media screen and (max-width: 768px)
+	.menu__tel
+		display: block
+	.container
+		max-width: 540px
+	.project__item
+		margin: 0 auto 28px
+	.skills
+		flex-wrap: wrap
+		justify-content: center
+	.skills__item
+		width: 24%
+	.skills__item:not(:last-of-type)
+		margin-bottom: 25px
+	.nav
+		padding: 21px 0
+	.menu
+		display: none
+	.tel
+		display: block
+	.video-frame
+		height: 361px
+	.communication
+		margin-bottom: 64px
+
+
+/* Extra small: 0px (320px) - 576px */
+@media screen and (max-width: 576px)
+	.container
+		padding: 0 15px
+		width: auto
+	.video-frame
+		height: 231px
+	.communication
+		width: 100%
+		margin-bottom: 64px
+	.following
+		width: 100%
+		margin-bottom: 83px
